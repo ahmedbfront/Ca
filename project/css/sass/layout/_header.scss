@@ -1,0 +1,310 @@
+// ########## Start Navbar ########## 
+.navbar {
+  background: transparent;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  transition: all .3s;
+  .navbar-brand {
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 0;
+    &:hover {
+      color: #fff;
+    }
+  }
+  .navbar-nav {
+    .nav-item {
+      &:last-child {
+        margin-left: 40px
+      }
+      .nav-link {
+        color: $white;
+        font-size: 16px;
+        font-weight: 500;
+        padding: 15px;
+        span {
+          display: block;
+          width: 100%;
+          background: $primary-color;
+          height: 3px;
+          transition: all .4s;
+          transform: translate(0, 8px);
+          margin-top: 10px;
+          opacity: 0;
+        }
+      }
+      &:hover a span, &.active a span {
+        transform: translate(0);
+        opacity: 1;
+      }
+      .sign {
+        border-radius: 24px 24px 24px 0;
+        border: 2px solid #a883e9;
+        padding: 14px 40px;
+        transition: all .4s;
+        &:hover {
+          background: $primary-color;
+          border-color: transparent;
+        }
+      }
+    }
+  }
+  
+}
+.fx-top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #884bdf;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+// ########## End Navbar ########## 
+
+// ########## Start Header ########## 
+
+.wellcome_area {
+  background-image: url('../img/bg-img/welcome-bg.png');
+  background-position: bottom center;
+  background-size: cover;
+  position: relative;
+  height: 900px;
+  z-index: 1;
+  .wellcome-heading {
+    margin-bottom: 100px;
+    h2 {
+      position: relative;
+      color: $white;
+      font-size: 100px;
+      font-weight: 700;
+      z-index: 3;
+    }
+    h3 {
+      position: absolute;
+      top: -145px;
+      left: -36px;
+      font-size: 330px;
+      font-weight: 900;
+      color: $white;
+      z-index: -1;
+      opacity: .1;
+    }
+    p {
+      font-size: 16px;
+      margin-top: 0;
+      color: $white;
+    }
+  }
+  .get-start-area {
+    form {
+      input {
+        border: none;
+        height: 50px;
+        outline: none;
+        margin-bottom: 30px;
+        &:first-of-type {
+          background: #9572e8;
+          padding: 0 40px;
+          border-radius: 24px;
+         
+        }
+        &:last-of-type {
+          background: $primary-color;
+          margin-left: 10px;
+          transition: all .4s;
+          &:hover {
+            background: $primary;
+          }
+        }
+      }
+      ::-webkit-input-placeholder{
+        color: #ffffff54;
+      }
+    }
+  }
+  .welcome-thumb {
+    width: 45%;
+    position: absolute;
+    bottom: -130px;
+    right: 85px;
+    z-index: 9;
+  }
+}
+// ########## End Header ########## 
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+
+  .wellcome_area {
+    .welcome-thumb {
+      width: 50%;
+      bottom: -150px;
+      right: 50px;
+    }
+  }
+
+
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .wellcome_area {
+    .welcome-thumb {
+      width: 50%;
+      bottom: -100px;
+      right: 0;
+    }
+  }
+}
+ 
+@media (min-width: 480px) and (max-width: 767px) {
+  .wellcome_area {
+    .welcome-thumb {
+      bottom: -109px;
+      width: 75%;
+      right: 0;
+    }
+  }
+}
+
+@media (min-width: 600px) and (max-width: 766.98px) {
+  .wellcome_area {
+    .welcome-thumb {
+      width: 50%;
+      bottom: -100px;
+      right: 0;
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 479.98px) {
+  .wellcome_area {
+    .welcome-thumb {
+      width: 90%;
+      bottom: -100px;
+      right: 0;
+    }
+  }  
+}
+
+
+
+@media (max-width: 575.95px), (max-width: 991.98px) {
+  .navbar {
+    background: #884bdf;
+    top: 0;
+    .navbar-brand {
+      font-size: 45px;
+    }
+    .navbar-nav {
+      .nav-item {
+        &:last-child {
+          margin: 0;
+        }
+        .nav-link {
+          span {
+            width: 10%;
+            margin: 10px auto;
+          }
+        }
+        .sign {
+          width: 30%;
+          margin: 0 auto 20px;
+        }
+      }
+    }
+  }
+}
+
+
+
+@media (max-width: 575.95px), (max-width: 991.98px) {
+
+  .wellcome_area {
+    .wellcome-heading {
+      margin-bottom: 100px;
+      h2 {
+        font-size: 80px;
+        font-weight: 700;
+      }
+      h3 {
+        top: -124px;
+        font-size: 300px;
+      }
+      p {
+        font-size: 16px;
+        margin-top: 0;
+      }
+    }
+
+  }
+}
+
+
+
+@media (max-width: 575.95px) {
+  .navbar {
+    .navbar-brand {
+      font-size: 35px;
+    }
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
+          padding: 5px;
+          span {
+            width: 20%;
+          }
+        }
+        .sign {
+          width: 60%;
+        }
+      }
+    }
+  }
+
+  // ########## Start Header ########## 
+  .wellcome_area {
+    .wellcome-heading {
+      h2 {
+        font-size: 55px;
+      }
+      h3 {
+        top: -112px;
+        left: -7px;
+        font-size: 250px;
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+    .get-start-area {
+      form {
+        input {
+          border: none;
+          height: 50px;
+          outline: none;
+          &:first-of-type {
+            background: #9572e8;
+            border-radius: 24px;
+          }
+          &:last-of-type {
+            background: $primary-color;
+            margin-left: 10px;
+            
+          }
+        }
+        ::-webkit-input-placeholder{
+          color: #ffffff54;
+        }
+      }
+    }
+    
+  }
+  // ########## End Header ########## 
+}

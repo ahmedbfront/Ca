@@ -1,0 +1,421 @@
+doctype
+html(lang='en')
+  head  
+    include includes/_styles
+  body
+
+    // ########## Start Navbar ########## 
+    nav(class='navbar navbar-expand-lg navbar-light')
+      div(class='container-fluid')
+        a(class='navbar-brand' href='#') Ca.
+        button(class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbar' )
+          span(class='navbar-toggler-icon')
+        div(class='collapse navbar-collapse justify-content-end' id='navbar')
+          ul(class='navbar-nav text-center')
+            li(class='nav-item active' data-value='home'): a(class='nav-link' href='#') Home
+                  span
+            li(class='nav-item' data-value='about'): a(class='nav-link' href='#') About
+                  span
+            li(class='nav-item' data-value='features'): a(class='nav-link' href='#') Features
+                  span
+            li(class='nav-item' data-value='screenshot'): a(class='nav-link' href='#') Screenshot
+                  span
+            li(class='nav-item' data-value='pricing'): a(class='nav-link' href='#') Pricing
+                  span
+            li(class='nav-item' data-value='team'): a(class='nav-link' href='#') Team
+                  span
+            li(class='nav-item' data-value='contact'): a(class='nav-link' href='#') Contact
+                  span
+            li(class='nav-item' data-value='#'): a(class='nav-link sign' href='#') Sign Up Free
+    // ########## End Navbar ########## 
+
+    // ########## Start Header ########## 
+    section(class='wellcome_area' id='home')
+      div(class='container h-100')
+        div(class='row h-100 align-items-center')
+          div(class='col-12 col-md')
+            div(class='wellcome-heading')
+              h2 Colorlib app
+              h3 C
+              p Everything You Need. To Start Selling Online Beautifully
+            div(class='get-start-area')
+              // Start Form 
+              form(action="#" method="post" class='form-inline')
+                input(class='form-control' type="email" name="" placeholder="name@company.com")
+                input(type="submit" value="Get Started" class='butn')
+      div(class='welcome-thumb')
+        img(src="img/bg-img/welcome-img.png" alt="" class='img-fluid')
+    // ########## End Header ##########    
+
+    // ########## Start Special Area ########## 
+    section(class='special-area padding-tb text-center bg-white' id='about')
+      .container
+        .title
+          h2 Why Is It Special
+        .row
+          div(class='col-12 col-md-4')
+            .single-special
+              i(class='ti-mobile')
+              h4 Easy to use
+              p We build pretty complex tools and this allows us to take designs and turn them into functional quickly and easily
+          div(class='col-12 col-md-4')
+            .single-special
+              i(class='ti-ruler-pencil')
+              h4 Powerful Design
+              p We build pretty complex tools and this allows us to take designs and turn them into functional quickly and easily
+          div(class='col-12 col-md-4')
+            .single-special
+              i(class='ti-settings')
+              h4 Customizability
+              p We build pretty complex tools and this allows us to take designs and turn them into functional quickly and easily
+    // ########## End  Special Area ########## 
+
+    // ########## Start Special Description ########## 
+    section(class='special_description_area bg-white padding-b')
+      .container
+        .row
+          div(class='col-lg-6')
+            img(src="img/bg-img/special.png" alt="" class='img-fluid')
+          
+          div(class='col-lg-6 col-xl-5 ml-xl-auto')
+            .special_description_content
+              h2 Our Best Propositions for You!
+              p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+
+              div(class='app-download-btn')    
+                a(href="#")
+                  i(class='fa fa-android')
+                  p  
+                    span available on
+                    | Google Store  
+              div(class='app-download-btn')
+                a(href="#")
+                  i(class='fa fa-android')
+                  p  
+                    span available on
+                    | Google Store 
+    // ########## End Special Description ########## 
+
+    // ########## Start Awesome Feature ########## 
+    section(class='awesome-feature-area bg-white padding-b' id='features')
+      .container
+        .title
+          h2 Awesome Features
+        .row
+          div(class='col-lg-4 col-md-6')
+            .single-feature
+              span(class='ti-user')
+              h5 Awesome Experience
+              p Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.
+          div(class='col-lg-4 col-md-6')
+            .single-feature
+              span(class='ti-pulse')
+              h5 Awesome Experience
+              p Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.
+          div(class='col-lg-4 col-md-6')
+            .single-feature
+              span(class='ti-dashboard')
+              h5 Awesome Experience
+              p Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.
+          div(class='col-lg-4 col-md-6')
+            .single-feature
+              span(class='ti-palette')
+              h5 Awesome Experience
+              p Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.
+          div(class='col-lg-4 col-md-6')
+            .single-feature
+              span(class='ti-crown')
+              h5 Awesome Experience
+              p Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.
+          div(class='col-lg-4 col-md-6')
+            .single-feature
+              span(class='ti-headphone')
+              h5 Awesome Experience
+              p Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.
+    // ########## End Awesome Feature ########## 
+
+    // ########## Start video Section ########## 
+    section(class='video-section bg-white')
+      .container
+        .col-12
+          div(class='video-area')
+            .video-play
+              a(href="")
+                span(class='fa fa-play')
+    // ########## End video Section ########## 
+    
+    // ########## Start Cool Facts Area ########## 
+    section(class='cool_facts_area')
+      .container
+        .row
+          .col-md-3
+            div(class='single-cool-fact d-flex justify-content-center')
+              .counter-area
+                h3 
+                  span 90
+              .cool-facts-content
+                span(class='ion-arrow-down-a')
+                p App <br/> Downloads
+          .col-md-3
+            div(class='single-cool-fact d-flex justify-content-center')
+              .counter-area
+                h3 
+                  span 120
+              .cool-facts-content
+                span(class='ion-happy-outline')
+                p Happy <br/> Clients
+          .col-md-3
+            div(class='single-cool-fact d-flex justify-content-center')
+              .counter-area
+                h3 
+                  span 40
+              .cool-facts-content
+                span(class='ion-person')
+                p Active <br/> Accounts
+          .col-md-3
+            div(class='single-cool-fact d-flex justify-content-center')
+              .counter-area
+                h3 
+                  span 90
+              .cool-facts-content
+                span(class='ion-ios-star-outline')
+                p Total <br/> App Rates
+    // ########## End Cool Facts Area ########## 
+
+    // ########## Start App Screenshots ########## 
+    section(class='app-screenshots-area bg-white padding-b' id='screenshot')
+      .container-fluid
+        .title
+          h2 App Screenshots
+        .row
+          .col-12
+            div(class='app_screenshots_slides owl-carousel')
+              .single-shot
+                img(src='img/scr-img/app-1.jpg' alt='')
+              .single-shot
+                img(src='img/scr-img/app-2.jpg' alt='')
+              .single-shot
+                img(src='img/scr-img/app-3.jpg' alt='')
+              .single-shot
+                img(src='img/scr-img/app-4.jpg' alt='')
+              .single-shot
+                img(src='img/scr-img/app-5.jpg' alt='')
+              .single-shot
+                img(src='img/scr-img/app-3.jpg' alt='')
+    // ########## End App Screenshots ########## 
+
+    // ########## Start Pricing Plane  ########## 
+    section(class='pricing-plane-area padding-tb' id='pricing')
+      .container
+        .title
+          h2 Pricing Plan
+        div(class='row no-gutters')
+          div(class='col-lg-3 col-md-6')
+            div(class='single-price-plan text-center')
+              div(class='package-plan')
+                h5 Starter Plan
+                div(class='ca-price d-flex justify-content-center')
+                  span $
+                  h4 29
+              div(class='package-description')
+                p Up to 10 users monthly
+                p Unlimited updates
+                p Free host & domain
+                p 24/7 Support
+                p 10 Unique Users
+              div(class='plan-button')
+                a(href="#") Select Plan
+          div(class='col-lg-3 col-md-6')
+            div(class='single-price-plan text-center')
+              div(class='package-plan')
+                h5 Basic Plan
+                div(class='ca-price d-flex justify-content-center')
+                  span $
+                  h4 49
+              div(class='package-description')
+                p Up to 10 users monthly
+                p Unlimited updates
+                p Free host & domain
+                p 24/7 Support
+                p 10 Unique Users
+              div(class='plan-button')
+                a(href="#") Select Plan
+          div(class='col-lg-3 col-md-6')
+            div(class='single-price-plan text-center')
+              div(class='package-plan active')
+                h5(style='color:#fff;') Advenced Plan
+                div(class='ca-price d-flex justify-content-center' style='color:#fff;')
+                  span $
+                  h4 79
+              div(class='package-description')
+                p Up to 10 users monthly
+                p Unlimited updates
+                p Free host & domain
+                p 24/7 Support
+                p 10 Unique Users
+              div(class='plan-button')
+                a(href="#" style='background:#a865e1;') Select Plan
+          div(class='col-lg-3 col-md-6')
+            div(class='single-price-plan text-center')
+              div(class='package-plan')
+                h5 Community Plan
+                div(class='ca-price d-flex justify-content-center')
+                  span $
+                  h4 99
+              div(class='package-description')
+                p Up to 10 users monthly
+                p Unlimited updates
+                p Free host & domain
+                p 24/7 Support
+                p 10 Unique Users
+              div(class='plan-button')
+                a(href="#") Select Plan
+    // ########## End Pricing Plane  ########## 
+
+    // ########## Start Cta ########## 
+    section(class='our-monthly-membership')
+      .container
+        div(class='row align-items-center')
+          div(class='col-md-8')
+            div(class='description')
+              h2 Join our Monthly Membership
+              p Find the perfect plan for you — 100% satisfaction guaranteed.
+          div(class='col-md-4')
+            div(class='started-button')
+              a(href="#") Get Started
+    // ########## End Cta ########## 
+    
+    // ########## Start Our Teams ########## 
+    section(class='our-Team-area bg-white padding-tb' id='team')
+      .container
+        .title
+          h2 Our Team
+        .row
+          div(class='col-lg-3 col-md-6')
+            .single-team-member
+              .member-image
+                img(src="img/team-img/team-1.jpg" alt="" class='img-fluid')
+                .team-hover-effects
+                  .team-social-icon
+                    a(href="#")
+                      span(class='fa fa-facebook')
+                    a(href="#")
+                      span(class='fa fa-twitter')
+                    a(href="#")
+                      span(class='fa fa-google-plus')
+                    a(href="#")
+                      span(class='fa fa-instagram')
+              .member-text
+                h4 Jackson Nash
+                p Tax Advice
+          div(class='col-lg-3 col-md-6')
+            .single-team-member
+              .member-image
+                img(src="img/team-img/team-2.jpg" alt="" class='img-fluid')
+                .team-hover-effects
+                  .team-social-icon
+                    a(href="#")
+                      span(class='fa fa-facebook')
+                    a(href="#")
+                      span(class='fa fa-twitter')
+                    a(href="#")
+                      span(class='fa fa-google-plus')
+                    a(href="#")
+                      span(class='fa fa-instagram')
+              .member-text
+                h4 Alex Manning
+                p CEO-Founder              
+          div(class='col-lg-3 col-md-6')
+            .single-team-member
+              .member-image
+                img(src="img/team-img/team-3.jpg" alt="" class='img-fluid')
+                .team-hover-effects
+                  .team-social-icon
+                    a(href="#")
+                      span(class='fa fa-facebook')
+                    a(href="#")
+                      span(class='fa fa-twitter')
+                    a(href="#")
+                      span(class='fa fa-google-plus')
+                    a(href="#")
+                      span(class='fa fa-instagram')
+              .member-text
+                h4 Ollie Schneider
+                p Business Planner
+          div(class='col-lg-3 col-md-6')
+            .single-team-member
+              .member-image
+                img(src="img/team-img/team-4.jpg" alt="" class='img-fluid')
+                .team-hover-effects
+                  .team-social-icon
+                    a(href="#")
+                      span(class='fa fa-facebook')
+                    a(href="#")
+                      span(class='fa fa-twitter')
+                    a(href="#")
+                      span(class='fa fa-google-plus')
+                    a(href="#")
+                      span(class='fa fa-instagram')
+              .member-text
+                h4 Roger West
+                p Financer
+    // ########## End Our Teams ########## 
+
+    // ########## Start Contact ########## 
+    section(class='contact padding-tb' id='contact')
+      .container
+        .row
+          div(class='col-md-6')
+            .heading
+              h2 Get in touch with us!
+            .text(style='margin-bottom:50px;')
+              p We'll send you epic weekly blogs, whitepapers and things to make your app startup thrive, all FREE!
+            .text
+              p
+                span Address: 
+                | 40 Baria Sreet 133/2 NewYork City, US
+            .text
+              p
+                span Phone:  
+                | 1234 5678 90
+            .text
+              p 
+                span Email:  
+                | info@yoursite.com
+
+          div(class='col-md-6')
+            form(action="#" method="post")
+              input(type="text" name="text" placeholder='Your Name' class='form-control')
+              input(type="email" name="email" placeholder='Your E-mail' class='form-control')
+              textarea(cols="30" rows="5" placeholder='Your Message' class='form-control')
+              button(type="submit" class='btn') Send Now
+    // ########## End Contact ########## 
+
+    // ########## Start Footer ########## 
+    footer(class='text-center padding-tb')
+      .container
+        h2 Ca.
+        .social-icon
+          a(href="#")
+            span(class='fa fa-facebook')
+          a(href="#")
+            span(class='fa fa-twitter')
+          a(href="#")
+            span(class='fa fa-google-plus')
+          a(href="#")
+            span(class='fa fa-instagram')
+        
+        ul(class='list-unstyled')
+          li
+            a(href="#") About
+          li
+            a(href="#") Terms & Conditions
+          li
+            a(href="#") Privacy Policy
+          li
+            a(href="#") Contact
+        p Copyright ©2019 Ca. Designed by 
+          a(href="#" target='_blank') Ahmed Badr
+    // ########## End Footer ########## 
+    
+    include includes/_scripts

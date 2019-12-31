@@ -1,0 +1,44 @@
+footer {
+  margin-bottom: 30px;
+  h2 {
+    color: #5b32b4;
+    font-size: 72px;
+    font-weight: 700;
+    margin-bottom: 40px;
+  }
+  .social-icon {
+    margin-bottom: 30px;
+    a {
+      span {
+        background: #9b69e4;
+        font-size: 14px;
+        color: #ffffff;
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        font-weight: 500;
+        border-radius: 10px 10px 10px 0px;
+        margin-right: 10px;
+        transition: all .5s;
+        &:hover {
+          background: $primary-color;
+          color: #fff;
+        }
+      }
+    }
+  }
+  ul {
+    li {
+      display: inline-block;
+      &:last-child a {
+        border-right: 0 solid #726a84;
+      }
+      a {
+        border-right: 2px solid #726a84;
+        display: block;
+        padding: 0 7.5px;
+        color: #726a84;
+      }
+    }
+  }
+}

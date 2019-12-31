@@ -1,0 +1,95 @@
+@media (min-width: 576px) and (max-width: 767.98px){
+
+  // ########## Start Cta ########## 
+  .our-monthly-membership {
+    text-align: center;
+    .description {
+      margin-bottom: 40px;
+    }
+    .started-button {
+      text-align: center;
+    }
+  }
+  // ########## End Cta ########## 
+
+  // ########## Start video Section ########## 
+  .video-section {
+    .video-area {
+      border: 10px solid #fff;
+      height: 250px;
+    }
+  }
+  // ########## End video Section ########## 
+
+}
+
+
+
+@media (max-width: 575.95px) {
+  // ########## Start video Section ########## 
+  .video-section {
+    .video-area {
+      height: 250px;
+      border-width: 10px;
+    }
+  }
+  // ########## End video Section ########## 
+
+  // ########## Start Cool Facts Area ########## 
+  .cool_facts_area {
+    .single-cool-fact {
+      margin-bottom: 40px;
+    }
+  }
+  // ########## End Cool Facts Area ########## 
+
+  // ########## Start Special Description ########## 
+  .special_description_area {
+    .special_description_content {
+      h2 {
+        font-size: 30px;
+      }
+      .app-download-btn {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 30px;
+        a {
+          justify-content: center;
+        }
+      }
+    }
+  }
+  // ########## End Special Description ########## 
+
+  // ########## Start Cta ########## 
+  .our-monthly-membership {
+    text-align: center;
+    .description {
+      margin-bottom: 40px;
+    }
+    .started-button {
+      text-align: center;
+    }
+  }
+  // ########## End Cta ########## 
+
+  
+  // ########## start Contact ########## 
+  .contact {
+    .heading {
+      h2 {
+        font-size: 33px;
+      }
+    }
+    .text {
+      &:last-child {
+        margin-bottom: 40px;
+      }
+    }
+  }
+  // ########## End Contact ########## 
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  
+}
